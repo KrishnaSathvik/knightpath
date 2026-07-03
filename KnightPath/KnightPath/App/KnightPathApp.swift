@@ -4,7 +4,7 @@ import SwiftUI
 struct KnightPathApp: App {
     var body: some Scene {
         WindowGroup {
-            DesignSystemGallery()
+            LocalGameView()
         }
     }
 }
