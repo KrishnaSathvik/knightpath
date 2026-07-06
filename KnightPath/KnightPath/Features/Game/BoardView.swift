@@ -30,6 +30,10 @@ struct BoardView: View {
                                         isCheck: isCheckSquare(square),
                                         squareSize: squareSize
                                     )
+                                    .accessibilityElement(children: .ignore)
+                                    .accessibilityLabel(squareAccessibilityLabel(square: square))
+                                    .accessibilityHint(squareAccessibilityHint(square: square))
+                                    .accessibilityAddTraits(viewModel.legalMoves.contains(square) ? .isButton : [])
                                     .onTapGesture {
                                         viewModel.selectSquare(square)
                                     }
