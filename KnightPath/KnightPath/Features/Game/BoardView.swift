@@ -206,9 +206,25 @@ struct SquareView: View {
     private var accessibilityLabel: String {
         var label = square.description
         if let piece = piece {
-            label += ", \(piece.color) \(piece.kind)"
+            let colorStr = piece.color == .white ? "White" : "Black"
+            let kindStr: String
+            switch piece.kind {
+            case .king: kindStr = "king"
+            case .queen: kindStr = "queen"
+            case .rook: kindStr = "rook"
+            case .bishop: kindStr = "bishop"
+            case .knight: kindStr = "knight"
+            case .pawn: kindStr = "pawn"
+            }
+            label = "\(colorStr) \(kindStr), \(square.description)"
         } else {
-            label += ", empty"
+            label = "\(square.description), empty"
+        }
+        if isSelected {
+            label += ", selected"
+        }
+        if isLegalMove {
+            label += ", legal move"
         }
         return label
     }
