@@ -13,7 +13,7 @@ final class BotGameViewModel {
     let hintSystem: HintSystem
     private let accuracyTracker: AccuracyTracker
     
-    private var engine: UCIEngine?
+    private var engine: StockfishEngine?
     private var botTask: Task<Void, Never>?
     
     init(bot: BotDefinition, playerColor: PieceColor = .white) {
@@ -22,7 +22,7 @@ final class BotGameViewModel {
         self.gameViewModel = GameViewModel()
         self.hintSystem = HintSystem(maxHints: 3)
         self.accuracyTracker = AccuracyTracker()
-        self.engine = UCIEngine()
+        self.engine = StockfishEngine()
         
         Task {
             try? await engine?.start()
