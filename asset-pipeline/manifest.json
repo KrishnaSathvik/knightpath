@@ -1,0 +1,856 @@
+{
+  "version": 1,
+  "assets_catalog": "KnightPath/KnightPath/Assets.xcassets",
+  "assets": [
+    {
+      "name": "logo-shield",
+      "family": "brand",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Brand",
+      "status": "missing"
+    },
+    {
+      "name": "logo-knight-mark",
+      "family": "brand",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Brand",
+      "status": "missing"
+    },
+    {
+      "name": "app-icon",
+      "family": "brand",
+      "size_3x": [
+        1024,
+        1024
+      ],
+      "namespace": "Brand",
+      "status": "missing"
+    },
+    {
+      "name": "bg-chess-pattern",
+      "family": "brand",
+      "size_3x": [
+        1200,
+        1200
+      ],
+      "namespace": "Brand",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-idle",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "imported"
+    },
+    {
+      "name": "pathy-point",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-cheer",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-think",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-wince",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-teach",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-wave",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-shrug",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-sleep",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "pathy-celebrate",
+      "family": "pathy",
+      "size_3x": [
+        750,
+        750
+      ],
+      "namespace": "Pathy",
+      "status": "missing"
+    },
+    {
+      "name": "piece-w-king",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-w-queen",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-w-rook",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-w-bishop",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-w-knight",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-w-pawn",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-b-king",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-b-queen",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-b-rook",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-b-bishop",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-b-knight",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "piece-b-pawn",
+      "family": "pieces",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Pieces",
+      "status": "missing"
+    },
+    {
+      "name": "icon-passplay",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-puzzles",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-practice",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-boss",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "node-drill",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "node-trophy",
+      "family": "icons",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-coin",
+      "family": "icons",
+      "size_3x": [
+        300,
+        300
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-xp",
+      "family": "icons",
+      "size_3x": [
+        300,
+        300
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-star-gold",
+      "family": "icons",
+      "size_3x": [
+        300,
+        300
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-star-empty",
+      "family": "icons",
+      "size_3x": [
+        300,
+        300
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-streak-flame",
+      "family": "icons",
+      "size_3x": [
+        300,
+        300
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-freeze",
+      "family": "icons",
+      "size_3x": [
+        300,
+        300
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-chest-closed",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "icon-chest-open",
+      "family": "icons",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Icons",
+      "status": "missing"
+    },
+    {
+      "name": "badge-first-victory",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-7streak",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-ch1",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-tactical",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-puzzle-solver",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-arena",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-streak-legend",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "badge-endgame",
+      "family": "badges",
+      "size_3x": [
+        450,
+        450
+      ],
+      "namespace": "Badges",
+      "status": "missing"
+    },
+    {
+      "name": "deco-castle-1",
+      "family": "deco",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-castle-2",
+      "family": "deco",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-flag",
+      "family": "deco",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-tree",
+      "family": "deco",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-cloud",
+      "family": "deco",
+      "size_3x": [
+        600,
+        600
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-ghost-pawn",
+      "family": "deco",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-ghost-knight",
+      "family": "deco",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "deco-ghost-queen",
+      "family": "deco",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Deco",
+      "status": "missing"
+    },
+    {
+      "name": "onboard-bots-lineup",
+      "family": "onboarding",
+      "size_3x": [
+        1050,
+        1050
+      ],
+      "namespace": "Onboarding",
+      "status": "missing"
+    },
+    {
+      "name": "onboard-rewards",
+      "family": "onboarding",
+      "size_3x": [
+        1050,
+        1050
+      ],
+      "namespace": "Onboarding",
+      "status": "missing"
+    },
+    {
+      "name": "bot-ryan-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-ryan-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-ryan-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-fiona-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-fiona-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-fiona-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-greg-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-greg-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-greg-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-castle-king-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-castle-king-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-castle-king-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-gwen-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-gwen-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-gwen-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-tara-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-tara-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-tara-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-sofia-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-sofia-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-sofia-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-eli-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-eli-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-eli-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-grandmaster-neutral",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-grandmaster-taunt",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    },
+    {
+      "name": "bot-grandmaster-defeated",
+      "family": "bots",
+      "size_3x": [
+        900,
+        900
+      ],
+      "namespace": "Bots",
+      "status": "missing"
+    }
+  ]
+}
