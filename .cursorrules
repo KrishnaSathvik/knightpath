@@ -1,0 +1,22 @@
+You are building KnightPath, a gamified chess iOS app. SwiftUI, iOS 17+, Xcode project.
+
+SOURCE OF TRUTH
+- knightpath-prd.md defines all features, screens, tokens, architecture. Read the relevant section before implementing anything. Never invent features or copy that contradict it.
+- knightpath-asset-implementation-guide.md defines what is an image asset vs SwiftUI code (the "three buckets"). Never build in code what is designated an asset; never request an asset for what is designated code.
+- /design-refs/ mockups define layout and feel. Match structure and spacing; text/exact pixels in mockups are AI-generated and approximate.
+
+HARD RULES
+- NEVER hand-roll chess rules. All move generation/legality/mate detection via the ChessKit Swift package. If ChessKit lacks something, wrap it — do not reimplement.
+- Architecture: MVVM with @Observable (Observation framework). NO ObservableObject/@Published. NO singletons except a DI container. SwiftData for persistence.
+- GameViewModel.apply(_ move:) is the ONLY board mutation entry point.
+- All colors/fonts/radii/spacing come from DesignSystem token files (KPColor, KPFont, KPSpacing) that mirror PRD §5.1 exactly. NEVER hardcode a hex or magic number in a feature view.
+- All user-facing text is real SwiftUI Text with .fontDesign(.rounded). Never baked into images.
+- Image assets are referenced by the names in the asset guide (bot-greg-neutral, piece-w-knight, etc.). If an asset doesn't exist yet, use a clearly-marked placeholder (SF Symbol or colored shape) behind an `AssetPlaceholder` view — never block on art.
+- Haptics via a single HapticsService (move=light, capture=medium, check=heavy, checkmate=success, ticks=light). Sound via a single SoundService. Both respect Profile settings.
+- Every screen must work on iPhone SE through Pro Max. Board squares minimum 44pt. Respect Reduce Motion and add VoiceOver labels (squares announce coordinates, pieces announce "White knight, g1").
+- Swift 5.10+, strict concurrency where reasonable. No force unwraps in non-test code. No commented-out code left behind.
+
+WORKFLOW
+- Small commits per component. After each feature: build must succeed, include a brief manual test note.
+- When a design decision is ambiguous, check the PRD first; if still ambiguous, choose the simpler option and flag it in a TODO comment — do not ask and stall.
+- Do not add dependencies beyond: ChessKit, lottie-ios, (Phase 1+) the Stockfish xcframework.

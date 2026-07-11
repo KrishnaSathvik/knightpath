@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		KP001 /* KnightPathApp.swift */ = {isa = PBXBuildFile; fileRef = KP002; };
+		KP003 /* DesignSystemGallery.swift */ = {isa = PBXBuildFile; fileRef = KP004; };
+		KP005 /* KPColor.swift */ = {isa = PBXBuildFile; fileRef = KP006; };
+		KP007 /* KPFont.swift */ = {isa = PBXBuildFile; fileRef = KP008; };
+		KP009 /* KPSpacing.swift */ = {isa = PBXBuildFile; fileRef = KP010; };
+		KP011 /* KPButton.swift */ = {isa = PBXBuildFile; fileRef = KP012; };
+		KP013 /* KPCard.swift */ = {isa = PBXBuildFile; fileRef = KP014; };
+		KP015 /* KPPill.swift */ = {isa = PBXBuildFile; fileRef = KP016; };
+		KP017 /* KPLevelRing.swift */ = {isa = PBXBuildFile; fileRef = KP018; };
+		KP019 /* KPProgressBar.swift */ = {isa = PBXBuildFile; fileRef = KP020; };
+		KP021 /* KPChip.swift */ = {isa = PBXBuildFile; fileRef = KP022; };
+		KP023 /* AssetPlaceholder.swift */ = {isa = PBXBuildFile; fileRef = KP024; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		KP002 /* KnightPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightPathApp.swift; sourceTree = "<group>"; };
+		KP004 /* DesignSystemGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemGallery.swift; sourceTree = "<group>"; };
+		KP006 /* KPColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPColor.swift; sourceTree = "<group>"; };
+		KP008 /* KPFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPFont.swift; sourceTree = "<group>"; };
+		KP010 /* KPSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSpacing.swift; sourceTree = "<group>"; };
+		KP012 /* KPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPButton.swift; sourceTree = "<group>"; };
+		KP014 /* KPCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCard.swift; sourceTree = "<group>"; };
+		KP016 /* KPPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPill.swift; sourceTree = "<group>"; };
+		KP018 /* KPLevelRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPLevelRing.swift; sourceTree = "<group>"; };
+		KP020 /* KPProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPProgressBar.swift; sourceTree = "<group>"; };
+		KP022 /* KPChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KP022; sourceTree = "<group>"; };
+		KP024 /* AssetPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetPlaceholder.swift; sourceTree = "<group>"; };
+		KPAPP /* KnightPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		KPROOT = {
+			isa = PBXGroup;
+			children = (
+				KPMAIN /* KnightPath */,
+				KPPROD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		KPMAIN /* KnightPath */ = {
+			isa = PBXGroup;
+			children = (
+				KPAPPDIR /* App */,
+				KPDESIGN /* DesignSystem */,
+				KPASSETS /* Assets.xcassets */,
+			);
+			path = KnightPath;
+			sourceTree = "<group>";
+		};
+		KPAPPDIR /* App */ = {
+			isa = PBXGroup;
+			children = (
+				KP002 /* KnightPathApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		KPDESIGN /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				KP006 /* KPColor.swift */,
+				KP008 /* KPFont.swift */,
+				KP010 /* KPSpacing.swift */,
+				KP012 /* KPButton.swift */,
+				KP014 /* KPCard.swift */,
+				KP016 /* KPPill.swift */,
+				KP018 /* KPLevelRing.swift */,
+				KP020 /* KPProgressBar.swift */,
+				KP022 /* KPChip.swift */,
+				KP024 /* AssetPlaceholder.swift */,
+				KP004 /* DesignSystemGallery.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		KPPROD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				KPAPP /* KnightPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		KPASSETS /* Assets.xcassets */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		KPTARGET /* KnightPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = KPCONFIG /* Build configuration list for PBXNativeTarget "KnightPath" */;
+			buildPhases = (
+				KPSOURCES /* Sources */,
+				KPFRAMEWORKS /* Frameworks */,
+				KPRESOURCES /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnightPath;
+			productName = KnightPath;
+			productReference = KPAPP /* KnightPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		KPPROJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = KPPROJCONFIG /* Build configuration list for PBXProject "KnightPath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = KPROOT;
+			productRefGroup = KPPROD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				KPTARGET /* KnightPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		KPSOURCES /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				KP001 /* KnightPathApp.swift in Sources */,
+				KP003 /* DesignSystemGallery.swift in Sources */,
+				KP005 /* KPColor.swift in Sources */,
+				KP007 /* KPFont.swift in Sources */,
+				KP009 /* KPSpacing.swift in Sources */,
+				KP011 /* KPButton.swift in Sources */,
+				KP013 /* KPCard.swift in Sources */,
+				KP015 /* KPPill.swift in Sources */,
+				KP017 /* KPLevelRing.swift in Sources */,
+				KP019 /* KPProgressBar.swift in Sources */,
+				KP021 /* KPChip.swift in Sources */,
+				KP023 /* AssetPlaceholder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		KPDEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KnightPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knightpath.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		KPRELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KnightPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knightpath.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		KPPROJDEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		KPPROJRELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		KPCONFIG /* Build configuration list for PBXNativeTarget "KnightPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				KPDEBUG /* Debug */,
+				KPRELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		KPPROJCONFIG /* Build configuration list for PBXProject "KnightPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				KPPROJDEBUG /* Debug */,
+				KPPROJRELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = KPPROJ /* Project object */;
+}
