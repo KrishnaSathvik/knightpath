@@ -35,7 +35,7 @@ struct ProfileView: View {
                     KPLevelRing(progress: profile.xpProgress, lineWidth: 8)
                         .frame(width: 100, height: 100)
                     
-                    AssetPlaceholder("avatar", systemIcon: "person.circle.fill", size: 80)
+                    AssetPlaceholder("pathy-idle", systemIcon: "person.circle.fill", size: 80)
                 }
                 
                 VStack(spacing: KPSpacing.xs) {
