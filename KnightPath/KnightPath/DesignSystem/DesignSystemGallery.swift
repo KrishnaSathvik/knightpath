@@ -176,7 +176,7 @@ struct DesignSystemGallery: View {
             
             HStack(spacing: KPSpacing.md) {
                 AssetPlaceholder("piece-w-knight", systemIcon: "crown.fill", size: 60)
-                AssetPlaceholder("bot-greg", systemIcon: "person.circle", size: 60)
+                AssetPlaceholder("bot-greg-neutral", systemIcon: "person.circle", size: 60)
                 AssetPlaceholder("pathy-idle", systemIcon: "figure.wave", size: 60)
             }
         }
